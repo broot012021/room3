@@ -1,0 +1,29 @@
+.bg-animations {
+    width: 78px; height: 65px;
+    background: url('css_sprites.png') -10px -10px;
+}
+
+.bg-mobile_app_design {
+    width: 45px; height: 66px;
+    background: url('css_sprites.png') -200px -96px;
+}
+
+.bg-product_design {
+    width: 71px; height: 67px;
+    background: url('css_sprites.png') -10px -95px;
+}
+
+.bg-UX_UI {
+    width: 63px; height: 63px;
+    background: url('css_sprites.png') -108px -88px;
+}
+
+.bg-web_design {
+    width: 72px; height: 58px;
+    background: url('css_sprites.png') -108px -10px;
+}
+
+.bg-web_development {
+    width: 58px; height: 66px;
+    background: url('css_sprites.png') -200px -10px;
+}
