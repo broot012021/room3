@@ -6,14 +6,47 @@
 }
 
 body {
-    background-color: rgb(143, 255, 31);
     width: 100%;
-    height: 1100px;
+    height: 100%;
 }
 
 .app {
     width: 100%;
     height: 4040px;
+    background-color: brown;
+
+    .about {
+        background-color: #ffffff;
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        .container {
+            height: 100%;
+            width: 60%;
+            h2 {
+                margin-top: 90px;
+                margin-bottom: 40px;
+                color: #3695ff;
+            }
+            p {
+                margin-bottom: 50px;
+            }
+        }
+    }
+
+    .expert {
+        background-color: #f1f8ff;
+        height: 1150px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        h2 {
+            margin-top: 90px;
+            margin-bottom: 40px;
+            color: #3695ff;
+        }
+    }
 }
 
 // COOKIES SECTION
