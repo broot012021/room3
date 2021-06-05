@@ -6,14 +6,18 @@
 }
 
 body {
-    background-color: rgb(143, 255, 31);
     width: 100%;
-    height: 1100px;
+    height: 100%;
 }
 
 .app {
     width: 100%;
     height: 4040px;
     background-color: brown;
+
+    .expert {
+        background-color: #f1f8ff;
+        height: 1150px;
+    }
 }
 
