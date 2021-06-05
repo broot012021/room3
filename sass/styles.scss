@@ -15,9 +15,37 @@ body {
     height: 4040px;
     background-color: brown;
 
+    .about {
+        background-color: #ffffff;
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        .container {
+            height: 100%;
+            width: 60%;
+            h2 {
+                margin-top: 90px;
+                margin-bottom: 40px;
+                color: #3695ff;
+            }
+            p {
+                margin-bottom: 50px;
+            }
+        }
+    }
+
     .expert {
         background-color: #f1f8ff;
         height: 1150px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        h2 {
+            margin-top: 90px;
+            margin-bottom: 40px;
+            color: #3695ff;
+        }
     }
 }
 

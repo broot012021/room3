@@ -5,13 +5,49 @@
 }
 
 body {
-  background-color: #8fff1f;
   width: 100%;
-  height: 1100px;
+  height: 100%;
 }
 
 .app {
   width: 100%;
   height: 4040px;
   background-color: brown;
+}
+
+.app .about {
+  background-color: #ffffff;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.app .about .container {
+  height: 100%;
+  width: 60%;
+}
+
+.app .about .container h2 {
+  margin-top: 90px;
+  margin-bottom: 40px;
+  color: #3695ff;
+}
+
+.app .about .container p {
+  margin-bottom: 50px;
+}
+
+.app .expert {
+  background-color: #f1f8ff;
+  height: 1150px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.app .expert h2 {
+  margin-top: 90px;
+  margin-bottom: 40px;
+  color: #3695ff;
 }
