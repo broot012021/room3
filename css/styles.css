@@ -21,6 +21,11 @@ body {
   background-color: brown;
 }
 
+.app .hire {
+  background-color: #3695ff;
+  height: 800px;
+}
+
 .app .about {
   background-color: #ffffff;
   height: 400px;
@@ -80,6 +85,29 @@ body {
   background-color: #f4f4f4;
   border-radius: 10px;
   justify-content: center;
+}
+
+.app .works .projects .project img {
+  margin-left: auto;
+  margin-right: auto;
+  height: 240px;
+  padding: 5%;
+  text-align: center;
+  display: table-cell;
+}
+
+.app .clients {
+  background-color: #f1f8ff;
+  height: 460px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.app .clients h2 {
+  margin-top: 90px;
+  margin-bottom: 40px;
+  color: #3695ff;
 }
 
 .cookies {
