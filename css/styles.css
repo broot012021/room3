@@ -1,0 +1,114 @@
+.container {
+  height: 100%;
+  width: 60%;
+  margin: 0 auto;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.app {
+  width: 100%;
+  height: 4040px;
+  background-color: brown;
+}
+
+.app .about {
+  background-color: #ffffff;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.app .about h2 {
+  margin-top: 90px;
+  margin-bottom: 40px;
+  color: #3695ff;
+}
+
+.app .about p {
+  margin-bottom: 50px;
+}
+
+.app .expert {
+  background-color: #f1f8ff;
+  height: 1150px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.app .expert h2 {
+  margin-top: 90px;
+  margin-bottom: 40px;
+  color: #3695ff;
+}
+
+.app .works {
+  background-color: #ffffff;
+  height: 1015px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.app .works h2 {
+  margin-top: 90px;
+  margin-bottom: 40px;
+  color: #3695ff;
+}
+
+.app .works .projects {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: stretch;
+}
+
+.app .works .projects .project {
+  width: 30%;
+  height: 270px;
+  margin: 10px;
+  background-color: #f4f4f4;
+  border-radius: 10px;
+  justify-content: center;
+}
+
+.cookies {
+  text-align: center;
+  background-color: #194277;
+}
+
+.cookies__wrapper {
+  display: inline-block;
+  margin: 0 auto;
+  padding: 22px 0;
+}
+
+.cookies__text {
+  margin-right: 46px;
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  color: #fff;
+}
+
+.cookies__btn {
+  padding: 10px 34px;
+  border: none;
+  border-radius: 15px;
+  font-size: 12px;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  color: #194277;
+  line-height: 12px;
+  background-color: #fff;
+}
+/*# sourceMappingURL=styles.css.map */
