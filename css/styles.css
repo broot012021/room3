@@ -58,6 +58,22 @@ body {
   color: #3695ff;
 }
 
+.app .expert .expert-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  height: 1000px;
+}
+
+.app .expert .expert-container .expert-container__block {
+  height: 450px;
+  width: 395px;
+  background-color: crimson;
+}
+
 .app .works {
   background-color: #ffffff;
   height: 1015px;
