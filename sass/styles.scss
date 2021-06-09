@@ -53,6 +53,21 @@ body {
             margin-bottom: 40px;
             color: #3695ff;
         }
+        .expert-container {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            align-content: flex-start;
+            height: 1000px;
+            .expert-container__block {
+                height: 450px;
+                width: 395px;
+                background-color: crimson;
+            }
+        }
+
     }
 
     .works {
@@ -103,6 +118,8 @@ body {
         }
     }
 }
+
+
 
 // COOKIES SECTION
 .cookies{
