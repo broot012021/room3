@@ -196,10 +196,10 @@ body {
 
 @media (min-width: 50em) {
   section .container .expert-in__main-items {
-    flex-direction: row-reverse;
+    flex-direction: row;
   }
   section .container .expert-in__main-items .expert-in__main-items__block {
-    width: 32%;
+    width: 50%;
   }
 }
 
