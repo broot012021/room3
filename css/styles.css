@@ -194,7 +194,7 @@ body {
   background: url("/assets/images/expert_in_sprite.png") -200px -10px;
 }
 
-@media (min-width: 50em) {
+@media (min-width: 500px) {
   section .container .expert-in__main-items {
     flex-direction: row;
   }
