@@ -192,9 +192,9 @@ body {
     section {
             .container {              
                 .expert-in__main-items {
-                     flex-direction: row-reverse;
+                    flex-direction: row;
                     .expert-in__main-items__block {
-                         width: 32%;
+                         width: 50%;
                      } 
                 }
             }
