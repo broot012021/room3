@@ -17,8 +17,8 @@ body {
 
 .app {
     width: 100%;
-    height: 4040px;
-    background-color: brown;
+    height: 100%;
+    background-color: #f1f8ff;
 
     .hire {
         background-color: #3695ff;
@@ -31,51 +31,78 @@ body {
         display: flex;
         justify-content: center;
         text-align: center;
+        
         h2 {
             margin-top: 90px;
             margin-bottom: 40px;
             color: #3695ff;
         }
+        
         p {
                 margin-bottom: 50px;
-            }
-        
+            }        
     }
 
-    .expert {
-        background-color: #f1f8ff;
-        height: 1150px;
-        display: flex;
-        justify-content: center;
-        text-align: center;
-        h2 {
-            margin-top: 90px;
-            margin-bottom: 40px;
-            color: #3695ff;
-        }
-        .expert-container {
-            width: 100%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-wrap: wrap;
-            align-content: flex-start;
-            height: 1000px;
-            .expert-container__block {
+    section {
+        height: 100%;
+        width: 100%;
+        
+        .container {
+            width: 80%;
+            height: 100%;
+            margin: 0 auto;
+            
+            .expert-in__header {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 50px;
+                width: 50%;
+                margin: 0 auto;
+                color: #000;
+                
+                h3 {
+                    color: #3677fd;
+                    font-size: 25px;
+                }
+            }
+            
+            .expert-in__main-items {
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
-                height: 450px;
-                width: 395px;
-                background-color: crimson;
-                .expert-container__logo {
-                    height: 70px;
-                    width: 100%;
-                    display: flex;
+                align-items: center;
+                text-align: center;
+                
+                .expert-in__main-items__block {
+                    margin: 15px;
+                    
+                    .expert-in__main-items__block__logo {
+                        height: 134px;
+                        width: 134px;
+                        border-radius: 50%;
+                        border: 3px solid #dae2ea;
+                        margin: 0 auto;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;                    
+                    }
+                    
+                    .expert-in__main-items__block__text {
+                        color: #3677fd;
+                        
+                        h4 {
+                            padding-top: 20px;
+                            padding-bottom: 15px;
+                        }
+                        
+                        p {
+                            padding-bottom: 30px;
+                        }
+                    }
                 }
             }
         }
-
     }
 
     .works {
@@ -84,6 +111,7 @@ body {
         display: flex;
         justify-content: center;
         text-align: center;
+       
         h2 {
             margin-top: 90px;
             margin-bottom: 40px;
@@ -94,6 +122,7 @@ body {
             display: flex;
             flex-wrap: wrap;
             align-content: stretch;
+           
             .project {
                 width: 30%;
                 height: 270px;
@@ -101,6 +130,7 @@ body {
                 background-color: #f4f4f4;
                 border-radius: 10px;
                 justify-content: center;
+                
                 img {
                     margin-left: auto;
                     margin-right: auto;
@@ -119,8 +149,9 @@ body {
         display: flex;
         justify-content: center;
         text-align: center;
+        
         h2 {
-            margin-top: 90px;
+            margin-top: 80px;
             margin-bottom: 40px;
             color: #3695ff;
         }
@@ -129,33 +160,46 @@ body {
 
 .bg-animations {
     width: 78px; height: 65px;
-    background: url('css_sprites.png') -10px -10px;
+    background: url('/assets/images/expert_in_sprite.png') -10px -10px;
 }
 
 .bg-mobile_app_design {
     width: 45px; height: 66px;
-    background: url('css_sprites.png') -200px -96px;
+    background: url('/assets/images/expert_in_sprite.png') -200px -96px;
 }
 
 .bg-product_design {
     width: 71px; height: 67px;
-    background: url('css_sprites.png') -10px -95px;
+    background: url('/assets/images/expert_in_sprite.png') -10px -95px;
 }
 
 .bg-UX_UI {
     width: 63px; height: 63px;
-    background: url('css_sprites.png') -108px -88px;
+    background: url('/assets/images/expert_in_sprite.png') -108px -88px;
 }
 
 .bg-web_design {
     width: 72px; height: 58px;
-    background: url('css_sprites.png') -108px -10px;
+    background: url('/assets/images/expert_in_sprite.png') -108px -10px;
 }
 
 .bg-web_development {
     width: 58px; height: 66px;
-    background: url('css_sprites.png') -200px -10px;
+    background: url('/assets/images/expert_in_sprite.png') -200px -10px;
 }
+
+@media (min-width:50em) {
+    section {
+            .container {              
+                .expert-in__main-items {
+                     flex-direction: row-reverse;
+                    .expert-in__main-items__block {
+                         width: 32%;
+                     } 
+                }
+            }
+        }
+    }
 
 
 
